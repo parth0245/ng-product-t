@@ -1,0 +1,23 @@
+.productDesc,.prodOf{
+    font-family: 'Changa', sans-serif;
+}
+.badge {
+    font-family: sans-serif;
+}
+.prodButton {
+    background-color: #fdcc68;
+    color:black;
+    font-family: 'Changa', sans-serif;
+    position: fixed;
+    bottom: 0px;
+}
+.panel-heading {
+    color: black;
+    font-size: 18px;
+}
+.list-group-item{
+    font-size: 15px;
+}
+.selectSize{
+    font-family: 'Changa', sans-serif;
+}

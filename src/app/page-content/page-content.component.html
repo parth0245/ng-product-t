@@ -1,0 +1,15 @@
+<div class="marginTop70 col-xs-12 col-sm-12">
+  <div *ngFor="let items of dataArray;let i = index">
+    <div class="col-xs-6 col-sm-6 paddingTop20">
+      <div class="prod">
+        <div class="text-center" style="" (click)="getProdDetails(items)">
+          <img src="{{items.prodImage}}" style="height: 135px;width: 135px;"/>
+        </div>
+        <div class="prodName fontSize12 text-center marginTop10">{{items.prodName}}</div>
+        <div class="prodButton padding5 text-center marginTop10" [routerLink] = "['/home/buy-product']">
+            Buy Now - &#8377;{{items.prodPrice}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,99 @@
+
+<div class="text-center col-xs-12 col-sm-12 productDesc marginTop70 paddinLeftRight5">
+        <div class="panel panel-success AddressPanel">
+          <div class="panel-heading text-left">
+              Address Details 
+            </div>
+          <div class="panel-body noPaddingAll text-left">
+                <ul class="list-group" style="margin-bottom:0px;">
+                        <li class="list-group-item text-left col-xs-12 col-sm-12" *ngFor="let add of address">
+                <div class="col-xs-11 col-sm-11 noPadding">
+                                <div>{{add.flatBuilding}} {{add.locality}}, {{add.city}}, {{add.pin}}</div>
+                                <div>{{add.dist}}, {{add.state}}</div>
+                        </div>    
+                         <div class="col-xs-1 col-sm-1 noPadding">
+                                <span class="pull-right deleteAddress">X</span>
+                        </div>    
+               
+               
+
+                        </li>
+                </ul>
+          </div>
+        </div>
+        <div class="btn-group btn-group-justified" role="group" *ngIf="address.length<3">
+                        <div class="prodButton padding5 text-center addAddressBtn" [routerLink] = "['/home/address']">
+                        Add Address
+                        </div>
+                              
+                </div>
+      </div>
+
+      
+
+<div class="text-center col-xs-12 col-sm-12 productDesc marginTop20 paddinLeftRight5">
+    <div class="panel panel-success">
+        <div class="panel-heading text-left">
+            Product Details 
+        </div>
+        <div class="panel-body noPaddingAll text-left">
+                <div class="media padding10">
+                    <div class="media-left">
+                        <a href="#">
+                        <img class="media-object" src="https://cdna.4imprint.com/prod/700/391089.jpg" style="height:90px;width:90px;" alt="...">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Red T-Shirt</h4>
+                        <h4>Only in &#8377;270</h4> <del>&#8377;299</del> 10% Discount
+                    </div>
+
+                    <div class="form-group marginTop20">
+                            <select class="form-control" id="sel1">
+                              <option>Select Quantity</option>
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                    </div>
+
+
+                    </div>
+        </div>
+    </div>
+    </div>
+
+
+<div class="text-center col-xs-12 col-sm-12 productDesc paddingBottom20 paddinLeftRight5">
+<div class="panel panel-success">
+    <div class="panel-heading text-left">
+        Pricing Details 
+    </div>
+    <div class="panel-body noPaddingAll text-left">
+        <ul class="list-group" style="margin-bottom:0px;">
+                <li class="list-group-item text-left">
+                        <span>Price :</span>
+                        <span class="pull-right">&#8377;299</span>
+                </li>
+                <li class="list-group-item text-left">
+                        <span>Discount :</span>
+                        <span class="pull-right">10%</span>
+                </li>
+                <li class="list-group-item text-left">
+                        <span>Delivery :</span>
+                        <span class="pull-right">&#8377;50</span>
+                </li>
+                <li class="list-group-item text-left">
+                        <span>Total Amount :</span>
+                        <span class="pull-right">&#8377;320</span>
+                </li>
+        </ul>
+    </div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 prodButton padding15 text-center marginTop10" [routerLink] = "['/home']">
+    Pay Now - &#8377;320
+  </div>
+  

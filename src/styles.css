@@ -1,1 +1,69 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Changa:200,300,400,500,600,700,800|Righteous');
+.noPadding{
+    padding-left:0px;
+    padding-right:0px;
+}
+.noPaddingAll{
+    padding:0px !important;
+}
+.padding5{
+    padding:5px;
+}
+.paddinLeftRight5 {
+    padding-left:5px !important;
+    padding-right:5px !important;
+}
+.padding15{
+    padding:15px;
+}
+.padding10{
+    padding:10px;
+}
+.paddingBottom20{
+    padding-bottom:20px;
+}
+.paddingBottom40{
+    padding-bottom:40px;
+}
+.paddingTop20{
+    padding-top:20px;
+}
+.marginTop10{
+    margin-top:10px;
+}
+.marginTop20{
+    margin-top:20px;
+}
+.marginTop40 {
+    margin-top:40px;
+}
+.marginTop70 {
+    margin-top:70px;
+}
+.fontSize12{
+    font-size: 12px;
+}
+.fontSize24{
+    font-size: 24px;
+}
+.fontSize30{
+    font-size: 30px;
+}
+.marginTop5 {
+    margin-top:5px;
+}
+.marginRight10{
+    margin-right: 10px;
+}
+.marginRight15{
+    margin-right: 15px;
+}
+input:focus, textarea {
+    outline: none !important;
+}
+.width20 {
+    width:20%;
+}
+.divider-20{
+    margin-top:20px;
+}

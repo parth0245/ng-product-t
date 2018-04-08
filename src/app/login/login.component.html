@@ -1,0 +1,27 @@
+<div class="login-form">
+	<h2 class="text-center">Login</h2>
+    <form action="/examples/actions/confirmation.php" method="post">
+		<div class="avatar">
+			<img src="./assets/images/Thet2.png" alt="Avatar">
+		</div>           
+        <div class="form-group">
+        	<input type="text" class="form-control input-lg" name="username" placeholder="Username" required="required">
+        </div>
+		<div class="form-group">
+            <input type="password" class="form-control input-lg" name="password" placeholder="Password" required="required">
+        </div>   
+        <div class="divider-20"></div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary btn-lg btn-block login-btn" [routerLink] = "['/home']">Sign in</button>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary btn-lg btn-block login-btn">Facebook</button>
+        </div>
+    </form>
+    <div class="form-footer">
+        <a [routerLink] = "['/register']">Register Here</a>
+    </div>
+    <div class="form-footer">
+       <a href="#">Forgot Your Password ?</a>
+    </div>
+</div>

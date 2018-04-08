@@ -1,0 +1,39 @@
+.list-group-item {
+    border:none;
+}
+.AddressPanel{
+    margin-bottom:5px;
+}
+.deleteAddress{
+    color:#d43f3a;
+}
+.addAddressBtn {
+    font-size: 16px;
+}
+.panel-heading {
+    color: black;
+    font-size: 18px;
+    font-family: 'Changa', sans-serif;
+}
+.media {
+    font-family: 'Changa', sans-serif;
+}
+.list-group-item{
+    font-size: 15px;
+    font-family: 'Changa', sans-serif;
+}
+.list-group-item:not(:last-child){
+    border-bottom:2px solid lightGrey;
+}
+.addAddress{
+    font-size: 22px;
+    margin-top: -2px;
+}
+select.form-control {
+    padding-top:3px;
+}
+.prodButton {
+    background-color: #fdcc68;
+    color:black;
+    font-family: 'Changa', sans-serif;
+}

@@ -1,0 +1,34 @@
+<div class="header col-xs-12 col-sm-12 hidden-lg hidden-md" *ngIf="!searchActive">
+  <span (click)="openNav()" class="glyphicon glyphicon-th col-xs-1 col-sm-1 fontSize24 marginTop5 marginRight10"></span>
+  <span class="appName col-xs-6 col-sm-6">The-T Shop</span>
+  <span (click)="showHeader()" class="glyphicon glyphicon-search pull-right marginTop10 marginRight15"></span>
+</div>
+<div class="header headerWithHeight col-xs-12 col-sm-12 hidden-lg hidden-md" *ngIf="searchActive">
+    <span class="col-xs-10 col-sm-10">
+      <input type="text" placeholder="Search" class="searchInput"/>
+    </span>
+    <span (click)="showHeader()" class="glyphicon glyphicon-remove pull-right marginTop10 marginRight15"></span>
+    <span class="glyphicon glyphicon-search pull-right marginTop10 marginRight15"></span>
+  </div>
+<div id="mySidenav" class="sidenav">
+    <div>
+      
+      <div class="avatar col-xs-3 col-sm-3" style="margin-top:-5px;padding-right:0px">
+        <img src="https://www.tutorialrepublic.com/examples/images/avatar.png" alt="Avatar" style="height:60px;padding:20px 8px 10px 15px;text-decoration: none;">
+      </div>  
+      <div class="col-xs-8 col-sm-8 welcome">
+        Welcome , 
+        <span class="pull-right fontSize30" style="padding-right:0px;" (click)="closeNav($event)">&times;</span>
+        <div>Parth Pandey</div>  
+
+      </div> 
+       
+    </div>
+    <a href="#">About</a><hr>
+    <a href="#">Return Product</a><hr>
+    <a href="#">Services</a><hr>
+    <a href="#">FAQ</a><hr>
+    <a href="#">My Account</a><hr>
+    <a href="#">Contact</a><hr>
+    <a href="#">Legal</a><hr>
+  </div>
